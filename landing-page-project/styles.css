@@ -30,12 +30,22 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
+    outline: 2px solid red;
 }
 
 .headerContainer {
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
+    outline: 2px solid red;
     
 }
 
+.headerLinks, li {
+    display: flex;
+}
+
+.firstContent {
+    display: flex;
+    outline: 2px solid red;
+}
